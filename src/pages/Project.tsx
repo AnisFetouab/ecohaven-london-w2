@@ -32,7 +32,7 @@ const Project = () => {
             <div className="animate-on-scroll animate-slide-in-right">
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop"
+                  src="https://www.dropbox.com/s/qfi03jgp308hmtx/d46a9aaf-94cf-41c2-9749-9ef66ed8e892.jpg?st=60r9tvb2&dl=0"
                   alt="EcoHaven London Project"
                   className="w-full h-auto"
                 />
