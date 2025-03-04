@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
@@ -9,13 +8,14 @@ interface HeroProps {
   ctaText: string;
   ctaLink: string;
   backgroundImage: string;
+  showBackgroundImage: boolean; // New prop to control background image visibility
 }
 
-const Hero = ({ title, subtitle, ctaText, ctaLink, backgroundImage }: HeroProps) => {
+const Hero = ({ title, subtitle, ctaText, ctaLink, backgroundImage, showBackgroundImage }: HeroProps) => {
   return (
     <section 
       className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      style={{ backgroundImage: showBackgroundImage ? `url(${backgroundImage})` : 'none' }} // Conditionally apply background image
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px]"></div>
