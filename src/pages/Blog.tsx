@@ -39,7 +39,7 @@ const Blog = () => {
         {/* Featured Image */}
         <div className="rounded-2xl overflow-hidden mb-12">
           <img 
-            src="https://images.unsplash.com/photo-1507090960745-b32f65d3113a?q=80&w=2070&auto=format&fit=crop" 
+            src="https://www.dropbox.com/s/wgejauoaml1zs8i/Capture%20d'%C3%A9cran%202025-03-04%20233934.png?raw=1" 
             alt="Sustainable building with solar panels" 
             className="w-full h-auto object-cover"
           />
