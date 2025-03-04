@@ -15,7 +15,7 @@ const Index = () => {
         subtitle="Welcome to EcoHaven, a pioneering sustainable real estate development providing premium eco-friendly housing for 50 families in the heart of London."
         ctaText="Explore the Project"
         ctaLink="/project"
-        backgroundImage="https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=1965&auto=format&fit=crop"
+        backgroundImage="public/img1 (1).png"
       />
 
       {/* Introduction Section */}
