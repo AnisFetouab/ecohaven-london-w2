@@ -76,11 +76,11 @@ const TagalogProject = () => {
               </p>
               <blockquote className="border-l-4 border-primary/30 pl-4 italic">
                 "This development is a model for the future of urban living."
-                <footer className="text-sm mt-2">— Expert or organization</footer>
+                <footer className="text-sm mt-2">UN Nations</footer>
               </blockquote>
               <blockquote className="border-l-4 border-primary/30 pl-4 italic mt-4">
                 "Living here means reducing your carbon footprint while enjoying a premium lifestyle."
-                <footer className="text-sm mt-2">— Resident or investor testimonial</footer>
+                <footer className="text-sm mt-2">Lewis Hamilton</footer>
               </blockquote>
             </div>
             
