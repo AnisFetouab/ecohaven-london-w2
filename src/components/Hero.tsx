@@ -15,7 +15,7 @@ const Hero = ({ title, subtitle, ctaText, ctaLink, backgroundImage, showBackgrou
   return (
     <section 
       className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: showBackgroundImage ? `url(${backgroundImage})` : 'none' }} // Conditionally apply background image
+      style={{ backgroundImage: `url(${backgroundImage})` }} // Conditionally apply background image
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px]"></div>
