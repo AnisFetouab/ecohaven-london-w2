@@ -171,7 +171,7 @@ The building's orientation and window placement maximize passive solar heating i
               content="Beyond individual homes, EcoHaven London is designed as a complete ecosystem for sustainable living. Shared spaces include community gardens, a bike-sharing program, electric vehicle charging stations, and common areas powered by renewable energy.
 
 Our development incorporates green roofs, rainwater collection systems, and native plant landscaping that supports local biodiversity while creating beautiful spaces for residents to enjoy. These thoughtful touches not only enhance daily life but also minimize our collective environmental footprint."
-              image="https://www.dropbox.com/s/qfi03jgp308hmtx/d46a9aaf-94cf-41c2-9749-9ef66ed8e892.jpg?raw=1"
+              image="https://www.dropbox.com/s/1egux20peaqmeo8/London-nine-elms.jpg?st=1kvyn0bp&dl=0raw=1"
               reverse
             />
           </div>
