@@ -18,19 +18,19 @@ const TagalogProject = () => {
 
         {/* AIDA Format Content */}
         <div className="eco-glass p-8 md:p-10 rounded-2xl my-12 animate-on-scroll animate-fade-up">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">Emission-Free sa London W2 – Bagong Pamantayan sa Sustainable na Pamumuhay</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6">🌱 Live Emission-Free in London W2 – A New Standard in Sustainable Living</h2>
           
           <div className="space-y-10">
             {/* Attention */}
             <div>
               <div className="inline-flex items-center bg-primary/10 text-primary font-medium px-4 py-1 rounded-full mb-3">
                 <span className="text-2xl mr-2">🟢</span>
-                <span>ATTENTION – Ang Mas Luntian na Paraan ng Pamumuhay sa Gitna ng London</span>
+                <span>ATTENTION – A Greener Way of Living in the Heart of London</span>
               </div>
               <p className="text-muted-foreground">
-                Isipin ang isang tahanan kung saan ang bawat detalye ay idinisenyo para sa sustainable na hinaharap. 
-                Matatagpuan sa London W2, ang aming zero-emission na real estate development ay nag-aalok ng premium, 
-                eco-friendly na pabahay para sa 50 pamilya — nang hindi nagkokompromiso sa ginhawa o modernidad.
+                Imagine a home where every detail is designed for a sustainable future. 
+                Located in London W2, our zero-emission real estate development offers premium, 
+                eco-friendly housing for 50 families—without compromising comfort or modernity.
               </p>
             </div>
             
@@ -38,29 +38,29 @@ const TagalogProject = () => {
             <div>
               <div className="inline-flex items-center bg-primary/10 text-primary font-medium px-4 py-1 rounded-full mb-3">
                 <span className="text-2xl mr-2">🟡</span>
-                <span>INTEREST – Bakit Pipiliin ang Eco-Friendly na Tahanan?</span>
+                <span>INTEREST – Why Choose an Eco-Friendly Home?</span>
               </div>
               <p className="text-muted-foreground mb-4">
-                Habang ang climate change at tumataas na presyo ng enerhiya ay nagiging mga agarang alalahanin, 
-                ang aming proyekto ay nagbibigay ng isang may pananaw sa hinaharap na solusyon:
+                As climate change and rising energy costs become urgent concerns, our project 
+                provides a forward-thinking solution:
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-primary mr-2">✅</span>
-                  <span>100% Renewable Energy – Solar panels at passive energy recovery</span>
+                  <span>100% Renewable Energy – Solar panels and passive energy recovery</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">✅</span>
-                  <span>Eco-Friendly na Materyales – Binawasan na carbon footprint mula sa construction hanggang sa pang-araw-araw na pamumuhay</span>
+                  <span>Eco-Friendly Materials – Reduced carbon footprint from construction to daily living</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">✅</span>
-                  <span>Mas Magandang Kalidad ng Hangin & Kalusugan – Natural na bentilasyon at integrated green spaces</span>
+                  <span>Better Air Quality & Well-Being – Natural ventilation and integrated green spaces</span>
                 </li>
               </ul>
               <p className="text-muted-foreground mt-4">
-                Sa pagpili na manirahan dito, tinatanggap mo ang sustainable na pamumuhay habang natatamasa ang isang 
-                mataas na kalidad, modernong tahanan.
+                By choosing to live here, you embrace a sustainable lifestyle while enjoying a high-quality, 
+                modern home.
               </p>
             </div>
             
@@ -68,19 +68,19 @@ const TagalogProject = () => {
             <div>
               <div className="inline-flex items-center bg-primary/10 text-primary font-medium px-4 py-1 rounded-full mb-3">
                 <span className="text-2xl mr-2">🔵</span>
-                <span>DECISION – Isang Proyektong Suportado ng mga Eksperto</span>
+                <span>DECISION – A Project Backed by Experts</span>
               </div>
               <p className="text-muted-foreground mb-4">
-                Idinisenyo ng nangungunang mga arkitekto at sustainability engineers, bawat tahanan ay 
-                pinapataas ang energy efficiency. Ang mga lider ng industriya ay pumuri sa proyekto:
+                Designed by leading architects and sustainability engineers, each home maximizes 
+                energy efficiency. Industry leaders have praised the project:
               </p>
               <blockquote className="border-l-4 border-primary/30 pl-4 italic">
-                "Ang development na ito ay isang modelo para sa hinaharap ng urban living."
-                <footer className="text-sm mt-2">— Sustainability Expert</footer>
+                "This development is a model for the future of urban living."
+                <footer className="text-sm mt-2">— Expert or organization</footer>
               </blockquote>
               <blockquote className="border-l-4 border-primary/30 pl-4 italic mt-4">
-                "Ang paninirahan dito ay nangangahulugang pagbabawas ng iyong carbon footprint habang tinatamasa ang isang premium lifestyle."
-                <footer className="text-sm mt-2">— Resident Testimonial</footer>
+                "Living here means reducing your carbon footprint while enjoying a premium lifestyle."
+                <footer className="text-sm mt-2">— Resident or investor testimonial</footer>
               </blockquote>
             </div>
             
@@ -88,16 +88,20 @@ const TagalogProject = () => {
             <div>
               <div className="inline-flex items-center bg-primary/10 text-primary font-medium px-4 py-1 rounded-full mb-3">
                 <span className="text-2xl mr-2">🔴</span>
-                <span>ACTION – Sumali sa Zero-Emission Revolution!</span>
+                <span>ACTION – Join the Zero-Emission Revolution!</span>
               </div>
               <p className="text-muted-foreground">
-                Ito ay isang natatanging pagkakataon upang mamuhunan sa mas luntiang hinaharap. 
-                Makipag-ugnayan sa amin ngayon upang matuto nang higit pa o mag-iskedyul ng pagbisita.
+                This is a unique opportunity to invest in a greener future. 
+                Contact us today to learn more or schedule a visit.
               </p>
               <div className="flex flex-wrap gap-4 mt-6">
                 <div className="flex items-center">
                   <span className="text-xl mr-2">📩</span>
-                  <a href="/contact" className="text-primary hover:underline">Makipag-ugnayan Sa Amin</a>
+                  <span>eco.haven@uk.gov.co.uk</span>
+                </div>
+                <div className="flex items-center">
+                  <span className="text-xl mr-2">📞</span>
+                  <span>+44 556 5678</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-xl mr-2">📍</span>
