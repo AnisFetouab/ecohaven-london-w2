@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import SectionHeading from '../components/SectionHeading';
 import FeatureCard from '../components/FeatureCard';
 import { Wind, Leaf, LightbulbIcon, Sprout, ArrowRight } from 'lucide-react';
+import img1 from '/img/img1 (1).png';
 
 const Index = () => {
   return (
@@ -15,7 +16,7 @@ const Index = () => {
         subtitle="Welcome to EcoHaven, a pioneering sustainable real estate development providing premium eco-friendly housing for 50 families in the heart of London."
         ctaText="Explore the Project"
         ctaLink="/project"
-        backgroundImage= "https://github.com/AnisFetouab/ecohaven-london-w2/blob/main/public/img1%20(1).png"
+        backgroundImage={`url(${img1})`}
       />
 
       {/* Introduction Section */}
