@@ -11,11 +11,12 @@ interface HeroProps {
   showBackgroundImage: boolean; // New prop to control background image visibility
 }
 
+
 const Hero = ({ title, subtitle, ctaText, ctaLink, backgroundImage, showBackgroundImage }: HeroProps) => {
   return (
     <section 
       className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: `url(${backgroundImage})` }} // Conditionally apply background image
+      style={{ backgroundImage: `url('https://www.dropbox.com/s/txs90seufubbr5q/img1%20(1).png?raw=1')` }} // Your specific image URL
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px]"></div>
