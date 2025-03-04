@@ -1,69 +1,51 @@
-# Welcome to your Lovable project
 
-## Project info
+# EcoHaven London W2 - Sustainable Living Website
 
-**URL**: https://lovable.dev/projects/de0d64ee-a1ce-46df-ab19-69c105a53b6c
+![EcoHaven Logo](https://via.placeholder.com/150x50.png?text=EcoHaven+Logo)  
+*Live Green. Live Smart. A Zero-Emission Future in London W2.*
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## **Project Overview**
+EcoHaven London W2 is a **zero-emission real estate development** located in the heart of London. This website serves as a platform to showcase the project's sustainable features, educate visitors about eco-friendly living, and provide information for potential residents and investors.
 
-**Use Lovable**
+The website was created using **AI-generated content and tools** to demonstrate the potential of artificial intelligence in modern web development. The focus of this project is to reflect on the process of using AI to generate content, design, and visuals, rather than solely on the end product.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/de0d64ee-a1ce-46df-ab19-69c105a53b6c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## **Features**
+- **Homepage:** A visually engaging introduction to the project with a hero section, key features, and testimonials.  
+- **About:** The history and mission of EcoHaven London W2.  
+- **The Project:** Detailed information about the development's sustainable features, including renewable energy, eco-friendly materials, and smart home technology.  
+- **Blog:** Articles on sustainable living, urban development, and the future of real estate.  
+- **Contact:** A simple form for inquiries and a map showing the project's location.  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## **Tools Used**
+This project was created using a combination of AI tools and traditional web development resources:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### **Content Generation**
+- **ChatGPT:** For generating text content, including website copy, blog posts, and FAQs.  
+- **Grammarly:** For refining and proofreading AI-generated content.  
 
-Follow these steps:
+### **Design and Visuals**
+- **DALL·E / MidJourney:** For generating custom images of the development, interiors, and community spaces.  
+- **Canva:** For designing banners, logos, and social media graphics.  
+- **Unsplash / Pexels:** For royalty-free stock images.  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### **Website Development**
+- **GitHub Copilot:** For AI-assisted code generation.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### **Testing and Optimization**
+- **Google Analytics:** For tracking website performance and user behavior.  
+- **Hotjar:** For heatmaps and user interaction analysis.  
+- **ChatGPT:** For generating SEO-friendly meta descriptions and keywords.  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/de0d64ee-a1ce-46df-ab19-69c105a53b6c) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## **Setup Instructions**
+1. **Clone the Repository** (if using code):  
+   ```bash
+   git clone https://github.com/your-username/ecohaven-london-w2.git
+   cd ecohaven-london-w2
