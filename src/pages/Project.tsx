@@ -30,7 +30,7 @@ const Project = () => {
             
             <div className="animate-on-scroll animate-slide-in-right">
               <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <img src="https://www.dropbox.com/s/qfi03jgp308hmtx/d46a9aaf-94cf-41c2-9749-9ef66ed8e892.jpg?st=60r9tvb2&dl=0"
+                <img src="https://www.dropbox.com/s/qfi03jgp308hmtx/d46a9aaf-94cf-41c2-9749-9ef66ed8e892.jpg?raw=1"
                   alt="EcoHaven London Project"
                   className="w-full h-auto"
                 />
@@ -162,7 +162,7 @@ const Project = () => {
             content="Our residences are designed with an optimal balance of aesthetic beauty, functional comfort, and environmental responsibility. Each home features open floor plans, ample natural light, and smart spatial design to maximize both energy efficiency and living comfort.
 
 The building's orientation and window placement maximize passive solar heating in winter while preventing overheating in summer. Triple-glazed windows, superior insulation, and airtight construction drastically reduce energy needs while maintaining ideal indoor temperatures year-round."
-            image="https://www.dropbox.com/s/5n30o5p3v19z0o2/green_block_london_courtesy_of_watg_and_pixelflakes.jpg?st=cics57oo&dl=0"
+            image="https://www.dropbox.com/s/5n30o5p3v19z0o2/green_block_london_courtesy_of_watg_and_pixelflakes.jpg?raw=1"
           />
           
           <div className="mt-20">
@@ -171,7 +171,7 @@ The building's orientation and window placement maximize passive solar heating i
               content="Beyond individual homes, EcoHaven London is designed as a complete ecosystem for sustainable living. Shared spaces include community gardens, a bike-sharing program, electric vehicle charging stations, and common areas powered by renewable energy.
 
 Our development incorporates green roofs, rainwater collection systems, and native plant landscaping that supports local biodiversity while creating beautiful spaces for residents to enjoy. These thoughtful touches not only enhance daily life but also minimize our collective environmental footprint."
-              image="https://www.dropbox.com/s/qfi03jgp308hmtx/d46a9aaf-94cf-41c2-9749-9ef66ed8e892.jpg?st=934m8c9q&dl=0"
+              image="https://www.dropbox.com/s/qfi03jgp308hmtx/d46a9aaf-94cf-41c2-9749-9ef66ed8e892.jpg?raw=1"
               reverse
             />
           </div>
@@ -214,7 +214,7 @@ Our development incorporates green roofs, rainwater collection systems, and nati
               </p>
               <div>
                 <p className="font-semibold">James Harrington</p>
-                <p className="text-sm text-muted-foreground">Environmental Consultant & Early Investor</p>
+                <p className="text-sm text-muted-foreground">CEO, EcoTech Solutions</p>
               </div>
             </div>
             
@@ -225,11 +225,11 @@ Our development incorporates green roofs, rainwater collection systems, and nati
                 </svg>
               </div>
               <p className="text-base mb-6 italic text-muted-foreground">
-                "This project sets the benchmark for the future of housing. It’s refreshing to see a development that is not just aware of environmental issues but takes bold steps to address them."
+                "This development is a true reflection of how the real estate industry can evolve to meet the needs of our changing world. EcoHaven London is a shining example for others to follow."
               </p>
               <div>
-                <p className="font-semibold">Jessica Lee</p>
-                <p className="text-sm text-muted-foreground">Sustainability Advocate</p>
+                <p className="font-semibold">Hannah Green</p>
+                <p className="text-sm text-muted-foreground">Founder, Green Living Initiative</p>
               </div>
             </div>
           </div>
@@ -240,3 +240,4 @@ Our development incorporates green roofs, rainwater collection systems, and nati
 };
 
 export default Project;
+
