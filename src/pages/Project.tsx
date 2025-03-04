@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SectionHeading from '../components/SectionHeading';
@@ -34,12 +33,10 @@ const Project = () => {
                 <img src="https://www.dropbox.com/s/qfi03jgp308hmtx/d46a9aaf-94cf-41c2-9749-9ef66ed8e892.jpg?st=60r9tvb2&dl=0"
                   alt="EcoHaven London Project"
                   className="w-full h-auto"
-                  />
+                />
               </div>
             </div>
 
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -165,7 +162,7 @@ const Project = () => {
             content="Our residences are designed with an optimal balance of aesthetic beauty, functional comfort, and environmental responsibility. Each home features open floor plans, ample natural light, and smart spatial design to maximize both energy efficiency and living comfort.
 
 The building's orientation and window placement maximize passive solar heating in winter while preventing overheating in summer. Triple-glazed windows, superior insulation, and airtight construction drastically reduce energy needs while maintaining ideal indoor temperatures year-round."
-            image="https://images.unsplash.com/photo-1531829039722-d3fb3e705a4b?q=80&w=1974&auto=format&fit=crop"
+            image="https://www.dropbox.com/s/5n30o5p3v19z0o2/green_block_london_courtesy_of_watg_and_pixelflakes.jpg?st=cics57oo&dl=0"
           />
           
           <div className="mt-20">
@@ -174,7 +171,7 @@ The building's orientation and window placement maximize passive solar heating i
               content="Beyond individual homes, EcoHaven London is designed as a complete ecosystem for sustainable living. Shared spaces include community gardens, a bike-sharing program, electric vehicle charging stations, and common areas powered by renewable energy.
 
 Our development incorporates green roofs, rainwater collection systems, and native plant landscaping that supports local biodiversity while creating beautiful spaces for residents to enjoy. These thoughtful touches not only enhance daily life but also minimize our collective environmental footprint."
-              image="https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=1965&auto=format&fit=crop"
+              image="https://www.dropbox.com/s/qfi03jgp308hmtx/d46a9aaf-94cf-41c2-9749-9ef66ed8e892.jpg?st=934m8c9q&dl=0"
               reverse
             />
           </div>
@@ -228,31 +225,12 @@ Our development incorporates green roofs, rainwater collection systems, and nati
                 </svg>
               </div>
               <p className="text-base mb-6 italic text-muted-foreground">
-                "From a policy perspective, developments like EcoHaven London are exactly what we need to achieve our climate goals. This project demonstrates that zero-emission housing is not only possible but practical and desirable."
+                "This project sets the benchmark for the future of housing. It’s refreshing to see a development that is not just aware of environmental issues but takes bold steps to address them."
               </p>
               <div>
-                <p className="font-semibold">Sophia Chen</p>
-                <p className="text-sm text-muted-foreground">Director, London Sustainable Building Initiative</p>
+                <p className="font-semibold">Jessica Lee</p>
+                <p className="text-sm text-muted-foreground">Sustainability Advocate</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="section-padding bg-forest-gradient">
-        <div className="page-container">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-on-scroll animate-fade-up">
-              Join the Zero-Emission Revolution
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8 animate-on-scroll animate-fade-up">
-              This is your opportunity to be part of a groundbreaking sustainable community in one of London's most desirable locations. Experience premium living that aligns with your values.
-            </p>
-            <div className="animate-on-scroll animate-fade-up">
-              <Link to="/contact" className="btn btn-primary btn-lg">
-                Contact Us for More Information
-              </Link>
             </div>
           </div>
         </div>
