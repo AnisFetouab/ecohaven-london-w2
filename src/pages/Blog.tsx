@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+
+import React from 'react';
 import SectionHeading from '../components/SectionHeading';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Blog = () => {
-  const [language, setLanguage] = useState('en');
+  const { language } = useLanguage();
 
   const content = {
     en: {
@@ -33,6 +35,7 @@ const Blog = () => {
       greenSpaces: "4. Green Spaces and Urban Sustainability",
       policyChanges: "5. Policy Changes and Financial Incentives",
       callToAction: "Looking Ahead: A Call to Action for Businesses and Consumers",
+      backToHome: "Back to Home"
     },
     tl: {
       subtitle: "Mga Pananaw sa Sustainability",
@@ -59,26 +62,17 @@ const Blog = () => {
       greenSpaces: "4. Mga Berdeng Espasyo at Sustainability sa Lungsod",
       policyChanges: "5. Mga Pagbabago sa Patakaran at Insentibo sa Pananalapi",
       callToAction: "Pagtanaw sa Hinaharap: Isang Panawagan sa Negosyo at Mga Mamimili",
+      backToHome: "Bumalik sa Tahanan"
     },
   };
 
   return (
     <div className="pt-20">
       <div className="page-container section-padding">
-        {/* Language Switcher */}
-        <div className="flex justify-end mb-4">
-          <button 
-            className="px-4 py-2 bg-blue-600 text-white rounded-md"
-            onClick={() => setLanguage(language === 'en' ? 'tl' : 'en')}
-          >
-            {language === 'en' ? "🇵🇭 Tagalog" : "🇬🇧 English"}
-          </button>
-        </div>
-
         {/* Blog Header */}
         <Link to="/" className="inline-flex items-center text-primary mb-8 hover:underline">
           <ArrowLeft className="h-4 w-4 mr-2" />
-          {language === 'en' ? "Back to Home" : "Bumalik sa Home"}
+          {content[language].backToHome}
         </Link>
 
         <SectionHeading subtitle={content[language].subtitle} title={content[language].title} />

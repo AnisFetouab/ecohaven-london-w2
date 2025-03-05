@@ -1,12 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Leaf } from 'lucide-react';
+import { Menu, X, Leaf, Globe } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const { language, setLanguage } = useLanguage();
 
   const toggleMenu = () => setIsOpen(!isOpen);
   const closeMenu = () => setIsOpen(false);
@@ -30,15 +32,19 @@ const Navbar = () => {
   }, [location.pathname]);
 
   const navigationLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'Project', path: '/project' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Video', path: '/video' },
-    { name: 'AIDA', path: '/tagalog' },
-    { name: 'Contact', path: '/contact' },
+    { name: language === 'en' ? 'Home' : 'Tahanan', path: '/' },
+    { name: language === 'en' ? 'Project' : 'Proyekto', path: '/project' },
+    { name: language === 'en' ? 'Blog' : 'Blog', path: '/blog' },
+    { name: language === 'en' ? 'Video' : 'Bidyo', path: '/video' },
+    { name: language === 'en' ? 'AIDA' : 'AIDA', path: '/tagalog' },
+    { name: language === 'en' ? 'Contact' : 'Makipag-ugnayan', path: '/contact' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
+
+  const toggleLanguage = () => {
+    setLanguage(language === 'en' ? 'tl' : 'en');
+  };
 
   return (
     <header 
@@ -77,17 +83,37 @@ const Navbar = () => {
                 )}
               </Link>
             ))}
+            
+            {/* Language Switcher */}
+            <button 
+              onClick={toggleLanguage}
+              className="flex items-center text-sm font-medium text-foreground/80 hover:text-primary"
+              aria-label="Toggle language"
+            >
+              <Globe className="h-4 w-4 mr-1" />
+              {language === 'en' ? '🇵🇭 Tagalog' : '🇬🇧 English'}
+            </button>
           </nav>
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={toggleMenu}
-            className="md:hidden flex items-center text-foreground"
-            aria-expanded={isOpen}
-            aria-label="Toggle menu"
-          >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          <div className="md:hidden flex items-center space-x-4">
+            <button
+              onClick={toggleLanguage}
+              className="flex items-center text-foreground/80 mr-2"
+              aria-label="Toggle language"
+            >
+              <Globe className="h-5 w-5" />
+            </button>
+            
+            <button
+              onClick={toggleMenu}
+              className="flex items-center text-foreground"
+              aria-expanded={isOpen}
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -112,6 +138,12 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
+          <button 
+            onClick={toggleLanguage}
+            className="py-2 px-4 rounded-md text-sm font-medium transition-colors hover:bg-secondary text-foreground/80 text-left"
+          >
+            {language === 'en' ? '🇵🇭 Tagalog' : '🇬🇧 English'}
+          </button>
         </nav>
       </div>
     </header>
