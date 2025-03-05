@@ -93,7 +93,7 @@ const TagalogProject = () => {
         {/* Project Overview 1 */}
         <ProjectOverview
           title="Modernong Sustainable Design"
-          content="Ang EcoHaven London W2 ay nagtatampok ng cutting-edge na sustainable design na gumagamit ng mga renewable na materyales at advanced na teknolohiya upang bawasan ang environmental impact."
+          content="The Max Fordham House is an innovative, sustainable residential design that integrates advanced green technologies and passive design strategies to minimize environmental impact, optimize energy efficiency, and create a comfortable living space through carefully planned rainwater harvesting, renewable energy generation, intelligent HVAC systems, and a well-insulated building envelope."
           image="https://www.dropbox.com/s/1uhuoagyjvn2a5u/Modernong%20Sustainable%20Design.webp?raw=1"
         />
         
