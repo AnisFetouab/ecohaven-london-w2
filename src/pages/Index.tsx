@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
@@ -107,7 +108,7 @@ const Index = () => {
         subtitle={heroSubtitle}
         ctaText={heroCta}
         ctaLink="/project"
-        backgroundImage="https://www.dropbox.com/s/txs90seufubbr5q/img1%20(1).png?raw=1"
+        backgroundImage="/img1 (1).png"
       />
 
       {/* Introduction Section */}
