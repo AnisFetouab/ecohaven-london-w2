@@ -10,9 +10,8 @@ const TagalogProject = () => {
     <div className="py-16 md:py-24">
       <div className="container mx-auto px-4">
         <SectionHeading
-          subtitle="Proyekto"
+          subtitle="AIDA"
           title="Zero-Emission sa London W2"
-          description="Isang bagong pamantayan sa sustainable na pamumuhay sa gitna ng London."
           centered={true}
         />
 
@@ -97,11 +96,11 @@ const TagalogProject = () => {
               <div className="flex flex-wrap gap-4 mt-6">
                 <div className="flex items-center">
                   <span className="text-xl mr-2">📩</span>
-                  <span>eco.haven@uk.gov.co.uk</span>
+                  <span>info@ecohaven-london.com</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-xl mr-2">📞</span>
-                  <span>+44 556 5678</span>
+                  <span>+44 (0) 123 456 7890</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-xl mr-2">📍</span>
@@ -127,40 +126,42 @@ const TagalogProject = () => {
             reverse={true}
           />
         </div>
+        {/* Key Features Section */}
+<div className="py-12">
+  <SectionHeading
+    subtitle="Key Features"
+    title="Sustainable Solutions"
+    description="Our development incorporates the following eco-friendly solutions:"
+  />
 
-        {/* Key Features */}
-        <div className="py-12">
-          <SectionHeading
-            subtitle="Mga Katangian"
-            title="Sustainable na Solusyon"
-            description="Ang aming development ay nagtatampok ng mga sumusunod na eco-friendly na solusyon:"
-          />
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-            <FeatureCard
-              icon={Leaf}
-              title="Eco-Friendly Materials"
-              description="Gumagamit ng sustainable at hindi nakakalason na materyales sa buong construction process."
-              delay={0}
-            />
-            <FeatureCard
-              icon={SunMedium}
-              title="Renewable Energy"
-              description="100% renewable energy mula sa solar panels at wind turbines na naka-integrate sa design."
-              delay={1}
-            />
-            <FeatureCard
-              icon={Home}
-              title="Energy Efficiency"
-              description="Superior na insulasyon at energy-efficient na windows para sa pinakamababang energy consumption."
-              delay={2}
-            />
-            <FeatureCard
-              icon={Lightbulb}
-              title="Smart Technology"
-              description="Integrated smart home systems para ma-optimize ang energy usage at comfort."
-              delay={3}
-            />
+  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+    <FeatureCard
+      icon={Leaf}
+      title="Eco-Friendly Materials"
+      description="We use sustainable and non-toxic materials throughout the construction process."
+      delay={0}
+    />
+    <FeatureCard
+      icon={SunMedium}
+      title="Renewable Energy"
+      description="100% renewable energy sourced from solar panels and wind turbines integrated into the design."
+      delay={1}
+    />
+    <FeatureCard
+      icon={Home}
+      title="Energy Efficiency"
+      description="Superior insulation and energy-efficient windows to minimize energy consumption."
+      delay={2}
+    />
+    <FeatureCard
+      icon={Lightbulb}
+      title="Smart Technology"
+      description="Integrated smart home systems to optimize energy usage and enhance comfort."
+      delay={3}
+    />
+  </div>
+</div>
+
           </div>
         </div>
       </div>
