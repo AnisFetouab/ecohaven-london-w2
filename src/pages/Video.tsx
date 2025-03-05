@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SectionHeading from '../components/SectionHeading';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -18,7 +17,6 @@ const Video = () => {
       tagalog: "Tagalog",
       englishTranscript: "Welcome to EcoHaven London W2, where sustainable living meets modern comfort. Our zero-emission development provides housing for 50 families with a focus on renewable energy, eco-friendly materials, and cutting-edge smart home technology.",
       tagalogTranscript: "Maligayang pagdating sa EcoHaven London W2, kung saan ang sustainable na pamumuhay ay nakakatugma sa modernong kaginhawaan. Ang aming zero-emission na development ay nagbibigay ng pabahay para sa 50 pamilya na nakatuon sa renewable energy, eco-friendly na materyales, at pinakabagong smart home technology.",
-      videoPlaceholder: "Video will be available soon"
     },
     tl: {
       subtitle: "Multimedia",
@@ -31,7 +29,6 @@ const Video = () => {
       tagalog: "Tagalog",
       englishTranscript: "Welcome to EcoHaven London W2, where sustainable living meets modern comfort. Our zero-emission development provides housing for 50 families with a focus on renewable energy, eco-friendly materials, and cutting-edge smart home technology.",
       tagalogTranscript: "Maligayang pagdating sa EcoHaven London W2, kung saan ang sustainable na pamumuhay ay nakakatugma sa modernong kaginhawaan. Ang aming zero-emission na development ay nagbibigay ng pabahay para sa 50 pamilya na nakatuon sa renewable energy, eco-friendly na materyales, at pinakabagong smart home technology.",
-      videoPlaceholder: "Ang bidyo ay magiging available sa lalong madaling panahon"
     }
   };
 
@@ -46,11 +43,11 @@ const Video = () => {
         />
         
         <div className="max-w-4xl mx-auto mt-10">
-          {/* Video embed placeholder - replace with actual video when available */}
           <div className="aspect-w-16 aspect-h-9 bg-slate-100 rounded-xl overflow-hidden mb-8">
-            <div className="flex items-center justify-center h-full">
-              <p className="text-muted-foreground">{content[language].videoPlaceholder}</p>
-            </div>
+            <video controls className="w-full h-full">
+              <source src="https://www.dropbox.com/s/4ykb4q67eggyi6t/Video%2005-03-2025%2C%2009%2046%2021.mp4?raw=1" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
           
           <div className="space-y-8">
