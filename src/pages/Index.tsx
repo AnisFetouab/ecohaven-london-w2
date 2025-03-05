@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
@@ -85,13 +84,28 @@ const Index = () => {
     }
   };
 
+  const heroTitle = {
+    en: content.en.heroTitle,
+    tl: content.tl.heroTitle
+  };
+  
+  const heroSubtitle = {
+    en: content.en.heroSubtitle,
+    tl: content.tl.heroSubtitle
+  };
+  
+  const heroCta = {
+    en: content.en.heroCta,
+    tl: content.tl.heroCta
+  };
+
   return (
     <div className="pt-16">
       {/* Hero Section */}
       <Hero
-        title={content}
-        subtitle={content}
-        ctaText={content}
+        title={heroTitle}
+        subtitle={heroSubtitle}
+        ctaText={heroCta}
         ctaLink="/project"
         backgroundImage="https://www.dropbox.com/s/txs90seufubbr5q/img1%20(1).png?raw=1"
       />
