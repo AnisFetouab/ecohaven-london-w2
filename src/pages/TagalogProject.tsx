@@ -101,7 +101,7 @@ const TagalogProject = () => {
         <ProjectOverview
           title="Smart Home Technology"
           content="Each unit is equipped with state-of-the-art smart home technology for optimized energy management, reducing carbon footprint while enhancing efficiency."
-          image="https://www.dropbox.com/scl/fi/dxv9jjdqre7usgx/SmarthomeTechnology.jpg?rlkey=wsdtadn2wq4g3fnpod49grlck&raw=1"
+          image="https://www.dropbox.com/s/dxv9jjdqre7usgx/SmarthomeTechnology.jpg.jpg?st=640xzija&dl=1"
           reverse={true}
         />
 
