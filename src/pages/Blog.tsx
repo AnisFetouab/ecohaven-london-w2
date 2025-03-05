@@ -1,4 +1,3 @@
-
 import React from 'react';
 import SectionHeading from '../components/SectionHeading';
 import { ArrowLeft } from 'lucide-react';
@@ -31,7 +30,7 @@ const Blog = () => {
             <span>Emma Brown</span>
           </div>
           <span>|</span>
-          <time dateTime="2023-10-15">October 15, 2023</time>
+          <time dateTime="2023-10-15">Februrary 15, 2025</time>
           <span>|</span>
           <span>8 min read</span>
         </div>
@@ -39,7 +38,7 @@ const Blog = () => {
         {/* Featured Image */}
         <div className="rounded-2xl overflow-hidden mb-12">
           <img 
-            src="https://www.dropbox.com/s/wgejauoaml1zs8i/Capture%20d'%C3%A9cran%202025-03-04%20233934.png?raw=1" 
+            src="https://www.dropbox.com/s/mjyucrpgyad5a9e/TALA-AB-Image-Size-1200-x-800-6.jpg?st=tgicedti&dl=1" 
             alt="Sustainable building with solar panels" 
             className="w-full h-auto object-cover"
           />
@@ -71,7 +70,7 @@ const Blog = () => {
           
           <h3>3. Consumer Demand for Sustainable Living</h3>
           <p>
-            Today's consumers are more environmentally conscious than ever. A survey by the World Green Building Council found that <strong>79% of homebuyers prefer eco-friendly properties</strong> and are willing to pay a premium for sustainable features. Features such as solar panels, energy-efficient appliances, and green spaces are no longer just 'nice-to-haves'—they are becoming must-haves in the market.
+            Today’s consumers are more environmentally conscious than ever. A survey by the World Green Building Council found that <strong>79% of homebuyers prefer eco-friendly properties</strong> and are willing to pay a premium for sustainable features. Features such as solar panels, energy-efficient appliances, and green spaces are no longer just ‘nice-to-haves’—they are becoming must-haves in the market.
           </p>
           
           <h3>4. Stricter Environmental Regulations</h3>
@@ -87,7 +86,7 @@ const Blog = () => {
           <h2>The Future: A Shift Towards Sustainable Real Estate</h2>
           
           <p>
-            To address these challenges, the real estate industry is undergoing a paradigm shift. The next five years will see major advancements in eco-friendly housing, renewable energy integration, and green building innovations. Here's what we can expect:
+            To address these challenges, the real estate industry is undergoing a paradigm shift. The next five years will see major advancements in eco-friendly housing, renewable energy integration, and green building innovations. Here’s what we can expect:
           </p>
           
           <h3>1. The Rise of Net-Zero and Zero-Emission Buildings</h3>
@@ -132,55 +131,10 @@ const Blog = () => {
             The transformation is already happening. The choice now lies with developers, investors, and residents: embrace the change or risk being left behind.
           </p>
         </div>
-        
-        {/* More Articles */}
-        <div className="mt-20">
-          <h3 className="text-2xl font-bold mb-8">More Insights</h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="group">
-              <div className="mb-4 rounded-xl overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1613843451113-94dd8222cda1?q=80&w=2070&auto=format&fit=crop" 
-                  alt="Green technology in buildings" 
-                  className="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <span className="text-xs text-primary font-medium">Green Technology</span>
-              <h4 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Smart Home Technologies Revolutionizing Eco-Living</h4>
-              <p className="text-muted-foreground line-clamp-2">Explore how the latest smart home innovations are making sustainable living more accessible and convenient.</p>
-            </div>
-            
-            <div className="group">
-              <div className="mb-4 rounded-xl overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1565535941810-e9892acd7704?q=80&w=2070&auto=format&fit=crop" 
-                  alt="Sustainable materials" 
-                  className="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <span className="text-xs text-primary font-medium">Materials</span>
-              <h4 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">The Evolution of Sustainable Building Materials</h4>
-              <p className="text-muted-foreground line-clamp-2">A deep dive into innovative eco-friendly materials that are reshaping construction practices worldwide.</p>
-            </div>
-            
-            <div className="group">
-              <div className="mb-4 rounded-xl overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1589758438368-0ad531db3366?q=80&w=2070&auto=format&fit=crop" 
-                  alt="Urban planning" 
-                  className="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-              <span className="text-xs text-primary font-medium">Urban Planning</span>
-              <h4 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Designing Cities for a Carbon-Neutral Future</h4>
-              <p className="text-muted-foreground line-clamp-2">How urban planners and architects are reimagining city spaces to promote sustainability and reduce emissions.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
 };
 
 export default Blog;
+
