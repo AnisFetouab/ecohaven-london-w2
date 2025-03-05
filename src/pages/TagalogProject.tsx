@@ -92,19 +92,19 @@ const TagalogProject = () => {
 
         {/* Project Overview */}
         <ProjectOverview
-          title="Modernong Sustainable Design"
-          content="Ang EcoHaven London W2 ay nagtatampok ng cutting-edge na sustainable design na gumagamit ng mga renewable
-          na materyales at advanced na teknolohiya upang bawasan ang environmental impact."
-          image="/placeholder.svg"
-        />
-
+          title="Smart Home Technology"
+          content="Each unit is equipped with state-of-the-art smart home technology for optimized energy management, reducing carbon footprint while enhancing efficiency."
+          image="https://www.dropbox.com/scl/fi/dxv9jjdqre7usgx/SmarthomeTechnology.jpg?rlkey=wsdtadn2wq4g3fnpod49grlck&raw=1"
+          reverse={true}
+          />
+        
         <div className="py-16">
           <ProjectOverview
-            title="Smart Home Technology"
-            content="Bawat unit ay nilagyan ng cutting-edge na smart home technology para sa optimal na energy management."
-            image="/placeholder.svg"
+            title="Zero-Emission Transportation"
+            content="EcoHaven promotes sustainable mobility with electric vehicle charging stations, bike-friendly pathways, and pedestrian-friendly zones to reduce reliance on fossil fuels."
+            image="https://www.dropbox.com/scl/fi/abc123/zero-emission-transport.jpg?rlkey=xyz789&raw=1"
             reverse={true}
-          />
+            />
         </div>
 
         {/* Key Features Section */}
